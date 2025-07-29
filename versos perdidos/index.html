@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <title>Em busca dos versos perdidos</title>
+</head>
+
+<body>
+  <main>
+     <h1>Versos perdidos</h1>
+     <h5>by Willian Nazario</h5>
+    <!-- Passo 0 -->
+    <div class="passo ativo" id="passo-0">
+        <img src="img/cenario-passo0.jpg" alt="Cenário inicial">
+        <p>Meu samba espelha</p>
+        <p>O que ao espelho meu coração sente</p>
+        <p>Poente olhos que me veem desnudo do dissabor</p>
+        <p>Sou negro minha ancestralidade africana além mar</p>
+        <p>Minha gente que é bamba</p>
+        <p>Vim ao mundo não para o açoite, sim para a noite</p>
+        <p>Sou a origem do batuque e do amor</p>
+        <p>Do meu povo vem a esperança</p>
+        <p>A resistência, a militância</p>
+        <p>Vencemos a bonança</p>
+        <p>Salve os nossos orixás</p>
+        <p>Nosso samba é bênção de pai Oxalá</p>
+        <button class="btn-proximo" data-proximo="1">Samba do coração</button>
+    </div>
+
+    <!-- Passo 1 -->
+    <div class="passo" id="passo-1">
+        <img src="img/cenario-passo1.jpg" alt="Cenário passo 1">
+        <p>O vento que sopra levou a melodia que assobiei</p>
+        <p>E os devaneios a poesia que criei</p>
+        <p>Compositor que sou não lamento, não me afugento</p>
+        <p>Embarco no mar das ilusões, palavras em melodias</p>
+        <p>Cantarolo novas canções</p>
+        <button class="btn-voltar" data-anterior="0">Minha Ancestralidade</button>
+        <button class="btn-proximo" data-proximo="2">Um Homem só</button>
+    </div>
+
+    <!-- Passo 2 -->
+    <div class="passo" id="passo-2">
+        <img src="img/cenario-passo2.jpg" alt="Cenário passo 2">
+        <p>Parei pra admirar as rosas</p>
+        <p>Fiquei pra ouvir as rosas</p>
+        <p>Lembrei do que disse Mestre Cartola</p>
+        <p>Optei por um dedinho de prosa</p>
+        <p>Mas só o silêncio eu pude escutar</p>  
+        <p>Sei que as rosas não falam</p>  
+        <p>Mas não custava tentar</p>  
+        <button class="btn-voltar" data-anterior="1">Samba do Coração</button>
+        <button class="btn-proximo" data-proximo="3">A vida é bela</button>
+    </div>
+
+    <!-- Passo 3 -->
+    <div class="passo" id="passo-3">
+        <img src="img/cenario-passo3.jpg" alt="Cenário passo 4">
+        <p>A vida é bela</p>
+        <p>O mundo é tão grande para trilhar</p>
+        <p>Cedo ou tarde um amor encontrará</p>
+        <p>Purifique a alma, se arrependa</p>
+        <p>A Deus agradeça por viver</p>
+        <p>Pra que não padeça na ilusão</p>
+        <p>É seu próprio coração que lhe faz sofrer</p>
+        <button class="btn-voltar" data-anterior="2">Um Homem só</button>
+        <button class="btn-proximo" data-proximo="4">Vou desaguar no ribeirão</button>
+    </div>
+
+    <!-- Passo 4 -->
+    <div class="passo" id="passo-4">
+        <img src="img/cenario-passo4.jpg" alt="Cenário Passo 4">
+        <p>Vou desaguar no ribeirão</p>
+        <p>Toda dor, toda desilusão</p>
+        <p>A vida, um imenso mar</p>
+        <p>Nos aventuramos sempre em busca de emoções</p>
+        <p>O tempo traz consigo o vento que leva nossa jangada</p>
+        <p>Mar revolto dá lugar ao amor</p>
+        <p>Porto seguro em noite enluarada</p>
+        <button class="btn-voltar" data-anterior="3">A vida é bela</button>
+        <button class="btn-proximo" data-proximo="5">Um verso pra ti</button>
+    </div>
+
+    <!-- Passo 5 -->
+    <div class="passo" id="passo-5">
+        <img src="img/cenario-passo5.jpg" alt="Cenário passo 5">
+        <p>Fiz um verso pra ti</p>
+        <p>Um verso de amor</p>
+        <p>À beira mar em Maceió</p>     
+        <p>Recanto de um pescador</p>   
+        <p>Desde que a conheci</p>
+        <p>Cantei em prosa meu amor</p>
+        <p>A flor mais linda do jardim</p>
+        <p>Meu Porto Seguro, Salvador</p>
+        <button class="btn-voltar" data-anterior="4">Vou desaguar no ribeirão</button>
+        <button class="btn-proximo" data-proximo="6">Impertinente</button>
+    </div>
+
+    <!-- Passo 6 -->
+    <div class="passo" id="passo-6">
+        <img src="img/cenario-passo6.jpg" alt="Cenário final">
+        <p>Vivo pelas madrugadas</p>
+        <p>Em busca dos versos perdidos</p>
+        <p>Em noite enluarada</p>     
+        <p>Coração descolorido</p>   
+        <p>Sente a falta de uma dama</p>
+        <p>Me embriagando de paixão</p>
+        <p>Meu quarto sofre calado</p>
+        <p>Por minha impertinente sofreguidão</p>
+        <button class="btn-voltar" data-anterior="5">Um verso pra ti</button>
+        <button class="btn-proximo" data-proximo="0">Minha Ancestralidade</button>
+    </div>
+  </main>  
+
+  <script src="script.js"></script>
+</body>
+</html>
